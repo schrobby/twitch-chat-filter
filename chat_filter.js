@@ -102,7 +102,6 @@
             ".segmented_tabs li li a.CommandsToggle {" +
                 "width: 50px;" +
                 "padding-left: 0px;" +
-                "padding-top: 0;" +
                 "height: 18px;" +
                 "line-height: 115%;" +
             "}" +
