@@ -103,15 +103,7 @@
                 "width: 50px;" +
                 "padding-left: 0px;" +
                 "padding-top: 0;" +
-                "height: 8px;" +
-                "line-height: 115%;" +
-            "}" +
-    
-            ".segmented_tabs li li a.ChatToggle {" +
-                "width: 35px;" +
-                "padding-left: 15px;" +
-                "padding-top: 0;" +
-                "height: 8px;" +
+                "height: 18px;" +
                 "line-height: 115%;" +
             "}" +
         " </style>"
@@ -127,6 +119,7 @@
     $("<li><a class='CommandsToggle'>Commands</a></li>").insertAfter(chat_button);
     
     $(".CommandsToggle").click(function () {
+        $(this).toggleClass("selected");
         CurrentChat._show_spam = !CurrentChat._show_spam;
     });
     
